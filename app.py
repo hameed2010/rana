@@ -7,11 +7,8 @@ import calendar
 import subprocess
 import sys
 
-def install_package(package):
-    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
-
-# تثبيت مكتبة python-telegram-bot
-install_package("python-telegram-bot==20.8")
+from keep_alive import keep_alive
+keep_alive()
 from typing import Dict, List, Set, Tuple, Any
 
 from telegram.ext import (
