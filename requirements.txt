@@ -1,0 +1,11 @@
+python-telegram-bot==20.8
+json
+logging
+os
+time
+datetime
+calendar
+subprocess
+sys
+gunicorn
+flask
