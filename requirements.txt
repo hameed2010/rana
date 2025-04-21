@@ -1,10 +1,3 @@
 python-telegram-bot==13.15
-logging
-os
-time
-datetime
-calendar
-subprocess
-sys
 gunicorn
 flask
